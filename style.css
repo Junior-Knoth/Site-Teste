@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #f00;
+    width: 100%;
+    padding: 20px 0;
+}
+
+header > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
